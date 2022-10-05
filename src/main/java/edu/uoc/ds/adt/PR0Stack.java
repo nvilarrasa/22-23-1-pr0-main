@@ -21,7 +21,7 @@ public class PR0Stack {
 
 
     public void fillStack() {
-        for (char i = 0; i < 9; i++) {
+        for (int i = 0; i < 9; i++) {
             stack.push(Integer.valueOf(i));
         }
     }
